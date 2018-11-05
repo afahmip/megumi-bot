@@ -6,7 +6,8 @@ const data_health = require('./data_health.json'),
       data_dokter = require('./data_dokter.json'),
       data_appoint = require('./data_appoint.json'),
       data_penyakit = require('./data_penyakit.json'),
-      data_thank = require('./data_thank.json');
+      data_thank = require('./data_thank.json'),
+      data_riwayat = require('./data_riwayat.json');
 
 const command_list = {
     'Tampilin data kesehatanku dong': data_health,
@@ -15,6 +16,7 @@ const command_list = {
     'Pilih dr. Winnie Fiona, Sp.A': data_dokter,
     'Buat appointment': data_appoint,
     'Tampilkan gejala demam': data_penyakit,
+    'Kebiasaan hidupku selama ini gimana ya, megumi?': data_riwayat,
     'Makasih ya megumi :)': data_thank
 }
 

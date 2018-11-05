@@ -1,0 +1,201 @@
+{
+  "type": "flex",
+  "altText": "Riwayat aktivitas",
+  "contents": {
+    "type": "bubble",
+    "styles": {
+      "footer": {
+        "separator": true
+      }
+    },
+    "body": {
+      "type": "box",
+      "layout": "vertical",
+      "contents": [
+        {
+          "type": "text",
+          "text": "Riwayat Kebiasaan",
+          "weight": "bold",
+          "color": "#2ebbea",
+          "size": "xl",
+          "margin": "md"
+        },
+        {
+          "type": "text",
+          "wrap": true,
+          "text": "Ini riwayat kebiasaan hidup kamu selama beberapa hari, perhatiin tuh :( Jangan sampe turun lho nanti aku sedih...",
+          "color": "#777777",
+          "size": "sm",
+          "margin": "md"
+        },
+        {
+          "type": "separator",
+          "margin": "xxl"
+        },
+        {
+          "type": "box",
+          "layout": "vertical",
+          "margin": "xxl",
+          "spacing": "sm",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "margin": "xl",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "17/10/2018",
+                  "size": "md",
+                  "wrap": true,
+                  "color": "#111111",
+                  "flex": 10
+                },
+                {
+                  "type": "text",
+                  "text": "75%",
+                  "weight": "bold",
+                  "size": "xl",
+                  "color": "#28bf1a",
+                  "flex": 3
+                },
+                {
+                  "type": "text",
+                  "text": "+",
+                  "weight": "bold",
+                  "size": "xl",
+                  "color": "#28bf1a",
+                  "flex": 1
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "margin": "xl",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "16/10/2018",
+                  "size": "md",
+                  "wrap": true,
+                  "color": "#111111",
+                  "flex": 10
+                },
+                {
+                  "type": "text",
+                  "text": "45%",
+                  "weight": "bold",
+                  "size": "xl",
+                  "color": "#ff0033",
+                  "flex": 3
+                },
+                {
+                  "type": "text",
+                  "text": "-",
+                  "weight": "bold",
+                  "size": "xl",
+                  "color": "#ff0033",
+                  "flex": 1
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "margin": "xl",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "15/10/2018",
+                  "size": "md",
+                  "wrap": true,
+                  "color": "#111111",
+                  "flex": 10
+                },
+                {
+                  "type": "text",
+                  "text": "90%",
+                  "weight": "bold",
+                  "size": "xl",
+                  "color": "#28bf1a",
+                  "flex": 3
+                },
+                {
+                  "type": "text",
+                  "text": "+",
+                  "weight": "bold",
+                  "size": "xl",
+                  "color": "#28bf1a",
+                  "flex": 1
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "margin": "xl",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "14/10/2018",
+                  "size": "md",
+                  "wrap": true,
+                  "color": "#111111",
+                  "flex": 10
+                },
+                {
+                  "type": "text",
+                  "text": "80%",
+                  "weight": "bold",
+                  "size": "xl",
+                  "color": "#28bf1a",
+                  "flex": 3
+                },
+                {
+                  "type": "text",
+                  "text": "+",
+                  "weight": "bold",
+                  "size": "xl",
+                  "color": "#28bf1a",
+                  "flex": 1
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "margin": "xl",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "15/10/2018",
+                  "size": "md",
+                  "wrap": true,
+                  "color": "#111111",
+                  "flex": 10
+                },
+                {
+                  "type": "text",
+                  "text": "65%",
+                  "weight": "bold",
+                  "size": "xl",
+                  "color": "#ff0033",
+                  "flex": 3
+                },
+                {
+                  "type": "text",
+                  "text": "-",
+                  "weight": "bold",
+                  "size": "xl",
+                  "color": "#ff0033",
+                  "flex": 1
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
