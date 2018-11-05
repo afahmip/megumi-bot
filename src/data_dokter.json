@@ -144,7 +144,7 @@
               "action": {
                 "type": "message",
                 "label": "Buat Appointment",
-                "text": "Pilih dr. Winnie Fiona, Sp.A"
+                "text": "Buat appointment"
               }
             }
           ]
