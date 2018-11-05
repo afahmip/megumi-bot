@@ -1,0 +1,92 @@
+{
+  "type": "flex",
+  "altText": "Riwayat penyakit",
+  "contents": {
+    "type": "bubble",
+    "styles": {
+      "footer": {
+        "separator": true
+      }
+    },
+    "body": {
+      "type": "box",
+      "layout": "vertical",
+      "contents": [
+        {
+          "type": "text",
+          "text": "Riwayat Penyakit",
+          "weight": "bold",
+          "color": "#006b72",
+          "size": "xl",
+          "margin": "md"
+        },
+        {
+          "type": "separator",
+          "margin": "xxl"
+        },
+        {
+          "type": "text",
+          "text": "Demam",
+          "weight": "bold",
+          "color": "#009da8",
+          "size": "md",
+          "margin": "xl"
+        },
+        {
+          "type": "text",
+          "wrap": true,
+          "text": "Disertai dengan flu dan batuk",
+          "color": "#494949",
+          "size": "sm"
+        },
+        {
+          "type": "text",
+          "text": "Flu dan batuk",
+          "weight": "bold",
+          "color": "#009da8",
+          "size": "md",
+          "margin": "xl"
+        },
+        {
+          "type": "text",
+          "wrap": true,
+          "text": "Flu ringan, batuk berdahak",
+          "color": "#494949",
+          "size": "sm"
+        },
+        {
+          "type": "text",
+          "text": "Patah tulang",
+          "weight": "bold",
+          "color": "#009da8",
+          "size": "md",
+          "margin": "xl"
+        },
+        {
+          "type": "text",
+          "wrap": true,
+          "text": "Pasca kecelakaan, bagian tulang kering",
+          "color": "#494949",
+          "size": "sm"
+        },
+        {
+          "type": "box",
+          "layout": "vertical",
+          "margin": "xxl",
+          "contents": [
+            {
+              "type": "button",
+              "style": "primary",
+              "color": "#2ebbea",
+              "action": {
+                "type": "message",
+                "label": "Tambah Riwayat Penyakit",
+                "text": "Tambah riwayat penyakit"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

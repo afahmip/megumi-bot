@@ -7,7 +7,23 @@ const data_health = require('./data_health.json'),
       data_appoint = require('./data_appoint.json'),
       data_penyakit = require('./data_penyakit.json'),
       data_thank = require('./data_thank.json'),
-      data_riwayat = require('./data_riwayat.json');
+      data_riwayat = require('./data_riwayat.json'),
+      data_daftarpenyakit = require('./data_daftarpenyakit.json');
+
+const input_riwayat = {
+    type: 'text',
+    text: 'Ehhh kamu habis sakit? .__. Sakit apa...'
+}
+
+const input_riwayatdetil = {
+    type: 'text',
+    text: 'Detailnya gimana tuh...kok bisa sih :('
+}
+
+const input_riwayatok = {
+    type: 'text',
+    text: 'Oke udah kesimpen ya...semoga kamu tetep sehat terus ke depannya :('
+}
 
 const command_list = {
     'Tampilin data kesehatanku dong': data_health,
@@ -17,7 +33,12 @@ const command_list = {
     'Buat appointment': data_appoint,
     'Tampilkan gejala demam': data_penyakit,
     'Kebiasaan hidupku selama ini gimana ya, megumi?': data_riwayat,
-    'Makasih ya megumi :)': data_thank
+    'Makasih ya megumi :)': data_thank,
+    'Megumi, aku habis sakit nih': input_riwayat,
+    'Tambah riwayat penyakit': input_riwayat,
+    'Tampilin riwayat penyakitku dong': data_daftarpenyakit,
+    'Aku kemarin habis patah tulang lagi nih': input_riwayatdetil,
+    'Abis kecelakaan, nabrak mobil gitu, kena kepala': input_riwayatok
 }
 
 let handle_command = (input) => {
