@@ -1,0 +1,132 @@
+{
+  "type": "flex",
+  "altText": "Penyakit demam",
+  "contents": {
+    "type": "bubble",
+    "hero": {
+      "type": "image",
+      "size": "full",
+      "aspectRatio": "20:13",
+      "aspectMode": "cover",
+      "url": "https://cdn.idntimes.com/content-images/post/20170929/k1-f3dc20b14202787bf1b9fb13fb8e1384_600x400.jpg"
+    },
+    "styles": {
+      "footer": {
+        "separator": true
+      }
+    },
+    "body": {
+      "type": "box",
+      "layout": "vertical",
+      "contents": [
+        {
+          "type": "text",
+          "text": "Demam",
+          "weight": "bold",
+          "color": "#006b72",
+          "size": "xl",
+          "margin": "md"
+        },
+        {
+          "type": "separator",
+          "margin": "xxl"
+        },
+        {
+          "type": "text",
+          "text": "Deskripsi",
+          "weight": "bold",
+          "color": "#009da8",
+          "size": "md",
+          "margin": "xl"
+        },
+        {
+          "type": "text",
+          "wrap": true,
+          "text": "Demam adalah kondisi ketika suhu tubuh berada di atas angka 38 derajat celsius. Demam merupakan bagian dari proses kekebalan tubuh yang sedang melawan infeksi akibat virus, bakteri, atau parasit. Selain itu, demam juga bisa terjadi pada kondisi hipertiroidisme, artritis, atau karena penggunaan beberapa jenis obat-obatan, termasuk antibiotik. Kenaikan suhu tubuh akibat konsumsi obat ini disebut dengan demam obat atau “drug fever”.",
+          "color": "#494949",
+          "size": "sm",
+          "margin": "md"
+        },
+        {
+          "type": "text",
+          "text": "Gejala",
+          "weight": "bold",
+          "color": "#009da8",
+          "size": "md",
+          "margin": "xl"
+        },
+        {
+          "type": "box",
+          "layout": "vertical",
+          "margin": "lg",
+          "spacing": "sm",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "vertical",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "Sakit kepala",
+                  "margin": "lg",
+                  "size": "sm",
+                  "wrap": true,
+                  "color": "#494949"
+                },
+                {
+                  "type": "text",
+                  "text": "Keringat dingin",
+                  "margin": "lg",
+                  "size": "sm",
+                  "wrap": true,
+                  "color": "#494949"
+                },
+                {
+                  "type": "text",
+                  "text": "Sakit tenggorokan",
+                  "margin": "lg",
+                  "size": "sm",
+                  "wrap": true,
+                  "color": "#494949"
+                },
+                {
+                  "type": "text",
+                  "text": "Menggigil",
+                  "margin": "lg",
+                  "size": "sm",
+                  "wrap": true,
+                  "color": "#494949"
+                },
+                {
+                  "type": "text",
+                  "text": "Batuk-batuk",
+                  "margin": "lg",
+                  "size": "sm",
+                  "wrap": true,
+                  "color": "#494949"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "box",
+          "layout": "vertical",
+          "margin": "xxl",
+          "contents": [
+            {
+              "type": "button",
+              "style": "primary",
+              "color": "#2ebbea",
+              "action": {
+                "type": "uri",
+                "label": "Lihat Detail",
+                "uri": "https://www.alodokter.com/demam.html"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
