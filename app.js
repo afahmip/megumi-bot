@@ -36,9 +36,10 @@ function handleEvent(event) {
   }
 
   // use reply API
-  if(message) {
-    return client.replyMessage(event.replyToken, message);
-  }
+  return client.replyMessage(event.replyToken, {
+    type: 'text',
+    text: event.message.text
+  });
 }
 
 // listen on port
