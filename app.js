@@ -42,7 +42,7 @@ let handleEvent = (event) => {
 
   // use reply API
   if(message) {
-    return client.replyMessage(event.replyToken, message);
+    return client.replyMessage(event.replyToken, JSON.stringify(message));
   }
 
   return client.replyMessage(event.replyToken, {
