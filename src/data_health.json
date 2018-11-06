@@ -1,197 +1,201 @@
 {
-  "type": "bubble",
-  "styles": {
-    "footer": {
-      "separator": true
-    }
-  },
-  "body": {
-    "type": "box",
-    "layout": "vertical",
-    "contents": [
-      {
-        "type": "text",
-        "text": "Data Kesehatanmu",
-        "weight": "bold",
-        "color": "#00b3c6",
-        "size": "xl",
-        "margin": "md"
-      },
-      {
-        "type": "separator",
-        "margin": "xxl"
-      },
-      {
-        "type": "box",
-        "layout": "vertical",
-        "margin": "xxl",
-        "spacing": "sm",
-        "contents": [
-          {
-            "type": "box",
-            "layout": "horizontal",
-            "contents": [
-              {
-                "type": "text",
-                "text": "Tekanan darah",
-                "size": "sm",
-                "color": "#555555",
-                "flex": 0
-              },
-              {
-                "type": "text",
-                "text": "120/80 mmHg",
-                "size": "sm",
-                "color": "#111111",
-                "align": "end"
-              }
-            ]
-          },
-          {
-            "type": "box",
-            "layout": "horizontal",
-            "contents": [
-              {
-                "type": "text",
-                "text": "Kadar gula darah",
-                "size": "sm",
-                "color": "#555555",
-                "flex": 0
-              },
-              {
-                "type": "text",
-                "text": "140 mg/dL",
-                "size": "sm",
-                "color": "#111111",
-                "align": "end"
-              }
-            ]
-          },
-          {
-            "type": "box",
-            "layout": "horizontal",
-            "contents": [
-              {
-                "type": "text",
-                "text": "Kadar asam urat",
-                "size": "sm",
-                "color": "#555555",
-                "flex": 0
-              },
-              {
-                "type": "text",
-                "text": "5mg/dL",
-                "size": "sm",
-                "color": "#111111",
-                "align": "end"
-              }
-            ]
-          },
-          {
-            "type": "separator",
-            "margin": "xxl"
-          },
-          {
-            "type": "box",
-            "layout": "vertical",
-            "margin": "xxl",
-            "contents": [
-              {
-                "type": "text",
-                "text": "Penyakit Terakhir",
-                "weight": "bold",
-                "color": "#c62e00",
-                "size": "md",
-                "margin": "md"
-              },
-              {
-                "type": "box",
-                "layout": "vertical",
-                "margin": "md",
-                "spacing": "sm",
-                "contents": [
-                  {
-                    "type": "box",
-                    "layout": "horizontal",
-                    "contents": [
-                      {
-                        "type": "text",
-                        "text": "Nama penyakit",
-                        "size": "sm",
-                        "color": "#555555",
-                        "flex": 0
-                      },
-                      {
-                        "type": "text",
-                        "text": "Bronkhitis",
-                        "size": "sm",
-                        "color": "#111111",
-                        "align": "end"
-                      }
-                    ]
-                  },
-                  {
-                    "type": "box",
-                    "layout": "horizontal",
-                    "contents": [
-                      {
-                        "type": "text",
-                        "text": "Tanggal mulai",
-                        "size": "sm",
-                        "color": "#555555",
-                        "flex": 0
-                      },
-                      {
-                        "type": "text",
-                        "text": "12 Oktober 2018",
-                        "size": "sm",
-                        "color": "#111111",
-                        "align": "end"
-                      }
-                    ]
-                  },
-                  {
-                    "type": "box",
-                    "layout": "horizontal",
-                    "contents": [
-                      {
-                        "type": "text",
-                        "text": "Tanggal selesai",
-                        "size": "sm",
-                        "color": "#555555",
-                        "flex": 0
-                      },
-                      {
-                        "type": "text",
-                        "text": "1 November 2018",
-                        "size": "sm",
-                        "color": "#111111",
-                        "align": "end"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "type": "box",
-        "layout": "vertical",
-        "margin": "xxl",
-        "contents": [
-          {
-            "type": "button",
-            "style": "primary",
-            "action": {
-              "type": "uri",
-              "label": "Lihat Detail",
-              "uri": "https://linecorp.com"
-            }
-          }
-        ]
+  "type": "flex",
+  "altText": "Data kesehatan",
+  "contents": {
+    "type": "bubble",
+    "styles": {
+      "footer": {
+        "separator": true
       }
-    ]
+    },
+    "body": {
+      "type": "box",
+      "layout": "vertical",
+      "contents": [
+        {
+          "type": "text",
+          "text": "Data Kesehatanmu",
+          "weight": "bold",
+          "color": "#00b3c6",
+          "size": "xl",
+          "margin": "md"
+        },
+        {
+          "type": "separator",
+          "margin": "xxl"
+        },
+        {
+          "type": "box",
+          "layout": "vertical",
+          "margin": "xxl",
+          "spacing": "sm",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "Tekanan darah",
+                  "size": "sm",
+                  "color": "#555555",
+                  "flex": 0
+                },
+                {
+                  "type": "text",
+                  "text": "120/80 mmHg",
+                  "size": "sm",
+                  "color": "#111111",
+                  "align": "end"
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "Kadar gula darah",
+                  "size": "sm",
+                  "color": "#555555",
+                  "flex": 0
+                },
+                {
+                  "type": "text",
+                  "text": "140 mg/dL",
+                  "size": "sm",
+                  "color": "#111111",
+                  "align": "end"
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "Kadar asam urat",
+                  "size": "sm",
+                  "color": "#555555",
+                  "flex": 0
+                },
+                {
+                  "type": "text",
+                  "text": "5mg/dL",
+                  "size": "sm",
+                  "color": "#111111",
+                  "align": "end"
+                }
+              ]
+            },
+            {
+              "type": "separator",
+              "margin": "xxl"
+            },
+            {
+              "type": "box",
+              "layout": "vertical",
+              "margin": "xxl",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "Penyakit Terakhir",
+                  "weight": "bold",
+                  "color": "#c62e00",
+                  "size": "md",
+                  "margin": "md"
+                },
+                {
+                  "type": "box",
+                  "layout": "vertical",
+                  "margin": "md",
+                  "spacing": "sm",
+                  "contents": [
+                    {
+                      "type": "box",
+                      "layout": "horizontal",
+                      "contents": [
+                        {
+                          "type": "text",
+                          "text": "Nama penyakit",
+                          "size": "sm",
+                          "color": "#555555",
+                          "flex": 0
+                        },
+                        {
+                          "type": "text",
+                          "text": "Bronkhitis",
+                          "size": "sm",
+                          "color": "#111111",
+                          "align": "end"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "box",
+                      "layout": "horizontal",
+                      "contents": [
+                        {
+                          "type": "text",
+                          "text": "Tanggal mulai",
+                          "size": "sm",
+                          "color": "#555555",
+                          "flex": 0
+                        },
+                        {
+                          "type": "text",
+                          "text": "12 Oktober 2018",
+                          "size": "sm",
+                          "color": "#111111",
+                          "align": "end"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "box",
+                      "layout": "horizontal",
+                      "contents": [
+                        {
+                          "type": "text",
+                          "text": "Tanggal selesai",
+                          "size": "sm",
+                          "color": "#555555",
+                          "flex": 0
+                        },
+                        {
+                          "type": "text",
+                          "text": "1 November 2018",
+                          "size": "sm",
+                          "color": "#111111",
+                          "align": "end"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "box",
+          "layout": "vertical",
+          "margin": "xxl",
+          "contents": [
+            {
+              "type": "button",
+              "style": "primary",
+              "action": {
+                "type": "uri",
+                "label": "Lihat Detail",
+                "uri": "https://linecorp.com"
+              }
+            }
+          ]
+        }
+      ]
+    }
   }
 }

@@ -3,10 +3,13 @@
 const line = require('@line/bot-sdk');
 const express = require('express');
 
+// include command handler
+const command_handler = require('./src/command_handler');
+
 // create LINE SDK config from env variables
 const config = {
-  channelAccessToken: process.env.CHANNEL_ACCESS_TOKEN,
-  channelSecret: process.env.CHANNEL_SECRET,
+  channelAccessToken: process.env.CHANNEL_ACCESS_TOKEN || 'aaaa',
+  channelSecret: process.env.CHANNEL_SECRET || 'aaaa',
 };
 
 // create LINE SDK client
@@ -15,9 +18,6 @@ const client = new line.Client(config);
 // create Express app
 // about Express itself: https://expressjs.com/
 const app = express();
-
-// include command handler
-const command_handler = require('./src/command_handler');
 
 // register a webhook handler with middleware
 // about the middleware, please refer to doc
@@ -42,19 +42,23 @@ let handleEvent = (event) => {
 
   // use reply API
   if(message) {
-    return client.replyMessage(event.replyToken, JSON.stringify(message));
+    return client.replyMessage(event.replyToken, message);
+  } else {
+    return client.replyMessage(event.replyToken, {
+      type: 'text',
+      text: event.message.text
+    });
   }
-
-  return client.replyMessage(event.replyToken, {
-    type: 'text',
-    text: event.message.text
-  });
 }
 
 // listen on port
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 3001;
 app.listen(port, () => {
   console.log(`listening on ${port}`);
 
-  console.log(command_handler.handle_command('Tampilin data kesehatanku dong'));
+  // DEBUG
+  // let hehe = (command_handler.handle_command('Tampilin data kesehatanku dong'));
+  // if(hehe) {
+  //   console.log(hehe);
+  // }
 });
