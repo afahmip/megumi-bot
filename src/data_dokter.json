@@ -1,0 +1,155 @@
+{
+  "type": "flex",
+  "altText": "dokter",
+  "contents": {
+    "type": "bubble",
+    "hero": {
+      "type": "image",
+      "size": "full",
+      "aspectRatio": "20:13",
+      "aspectMode": "cover",
+      "url": "https://media.beritagar.id/2018-08/66d491d01748615d6b5473bde59dbdecc669d7b1.jpg"
+    },
+    "styles": {
+      "footer": {
+        "separator": true
+      }
+    },
+    "body": {
+      "type": "box",
+      "layout": "vertical",
+      "contents": [
+        {
+          "type": "text",
+          "text": "Dr. Winnie Fiona, Sp.A",
+          "weight": "bold",
+          "color": "#00b3c6",
+          "size": "xl",
+          "margin": "md"
+        },
+        {
+          "type": "separator",
+          "margin": "xxl"
+        },
+        {
+          "type": "box",
+          "layout": "vertical",
+          "margin": "xxl",
+          "spacing": "sm",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "margin": "md",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "Tempat & \ntanggal lahir",
+                  "size": "sm",
+                  "wrap": true,
+                  "color": "#555555",
+                  "flex": 0
+                },
+                {
+                  "type": "text",
+                  "text": "Jakarta, 19 \nFebruari 1985",
+                  "size": "sm",
+                  "wrap": true,
+                  "color": "#111111",
+                  "align": "end"
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "margin": "lg",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "Alamat",
+                  "size": "sm",
+                  "wrap": true,
+                  "color": "#555555",
+                  "flex": 0
+                },
+                {
+                  "type": "text",
+                  "text": "Jl. Cemara 103, \nRT 006/ RW 022",
+                  "size": "sm",
+                  "wrap": true,
+                  "color": "#111111",
+                  "align": "end"
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "margin": "lg",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "Spesialis",
+                  "size": "sm",
+                  "wrap": true,
+                  "color": "#555555",
+                  "flex": 0
+                },
+                {
+                  "type": "text",
+                  "text": "Dokter anak",
+                  "size": "sm",
+                  "wrap": true,
+                  "color": "#111111",
+                  "align": "end"
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "margin": "lg",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "Kredibilitas",
+                  "size": "sm",
+                  "wrap": true,
+                  "color": "#555555",
+                  "flex": 0
+                },
+                {
+                  "type": "text",
+                  "text": "Tinggi",
+                  "size": "sm",
+                  "wrap": true,
+                  "weight": "bold",
+                  "color": "#20a8d6",
+                  "align": "end"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "box",
+          "layout": "vertical",
+          "margin": "xxl",
+          "contents": [
+            {
+              "type": "button",
+              "style": "primary",
+              "color": "#2ebbea",
+              "action": {
+                "type": "message",
+                "label": "Buat Appointment",
+                "text": "Pilih dr. Winnie Fiona, Sp.A"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

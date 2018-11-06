@@ -1,0 +1,127 @@
+{
+  "type": "flex",
+  "altText": "Pilih Dokter",
+  "contents": {
+    "type": "bubble",
+    "styles": {
+      "footer": {
+        "separator": true
+      }
+    },
+    "body": {
+      "type": "box",
+      "layout": "vertical",
+      "contents": [
+        {
+          "type": "text",
+          "text": "Daftar Dokter",
+          "weight": "bold",
+          "color": "#28bf1a",
+          "size": "xl",
+          "margin": "md"
+        },
+        {
+          "type": "text",
+          "wrap": true,
+          "text": "Silakan pilih salah satu dokter, lalu buat appointment",
+          "color": "#777777",
+          "size": "sm",
+          "margin": "md"
+        },
+        {
+          "type": "separator",
+          "margin": "xxl"
+        },
+        {
+          "type": "box",
+          "layout": "vertical",
+          "margin": "xxl",
+          "spacing": "sm",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "margin": "xl",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "dr. Winnie Fiona, Sp.A",
+                  "size": "md",
+                  "wrap": true,
+                  "weight": "bold",
+                  "color": "#111111",
+                  "flex": 3
+                },
+                {
+                  "type": "button",
+                  "style": "primary",
+                  "color": "#2ebbea",
+                  "flex": 2,
+                  "action": {
+                    "type": "message",
+                    "label": "Pilih",
+                    "text": "Pilih dr. Winnie Fiona, Sp.A"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "margin": "xl",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "drg. Jonathan Del Piero",
+                  "size": "md",
+                  "wrap": true,
+                  "weight": "bold",
+                  "color": "#111111",
+                  "flex": 3
+                },
+                {
+                  "type": "button",
+                  "style": "primary",
+                  "color": "#2ebbea",
+                  "flex": 2,
+                  "action": {
+                    "type": "message",
+                    "label": "Pilih",
+                    "text": "Pilih dr. Winnie Fiona, Sp.A"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "margin": "xl",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "dr. Muhammad Ali, Sp.A",
+                  "size": "md",
+                  "wrap": true,
+                  "weight": "bold",
+                  "color": "#111111",
+                  "flex": 3
+                },
+                {
+                  "type": "button",
+                  "style": "primary",
+                  "color": "#2ebbea",
+                  "flex": 2,
+                  "action": {
+                    "type": "message",
+                    "label": "Pilih",
+                    "text": "Pilih dr. Winnie Fiona, Sp.A"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
