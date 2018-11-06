@@ -1,0 +1,182 @@
+{
+  "type": "flex",
+  "altText": "Saran aktivitas",
+  "contents": {
+    "type": "carousel",
+    "contents": [
+      {
+        "type": "bubble",
+        "hero": {
+          "type": "image",
+          "size": "full",
+          "aspectRatio": "20:13",
+          "aspectMode": "cover",
+          "url": "https://falony.com/wp-content/uploads/2017/02/manfaat-lari-pagi.jpg"
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "spacing": "sm",
+          "contents": [
+            {
+              "type": "text",
+              "text": "Lari pagi",
+              "wrap": true,
+              "weight": "bold",
+              "size": "xl"
+            },
+            {
+              "type": "separator",
+              "margin": "md"
+            },
+            {
+              "type": "text",
+              "margin": "xl",
+              "text": "Lari pagi sebagai aktivitas fisik, sangat baik untuk membakar kalori. Secara rata-rata, berlari dengan kecepatan 8 km/jam akan membakar sekitar 295 kalori",
+              "wrap": true,
+              "size": "sm"
+            }
+          ]
+        },
+        "footer": {
+          "type": "box",
+          "layout": "vertical",
+          "spacing": "sm",
+          "contents": [
+            {
+              "type": "button",
+              "style": "primary",
+              "action": {
+                "type": "uri",
+                "label": "Lihat detail",
+                "uri": "https://www.alodokter.com/manfaat-lari-pagi-untuk-menurunkan-berat-badan"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "bubble",
+        "hero": {
+          "type": "image",
+          "size": "full",
+          "aspectRatio": "20:13",
+          "aspectMode": "cover",
+          "url": "https://www.yogajournal.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cg_faces:center%2Cq_auto:good%2Cw_620/MTQ2MjI3ODcyMDE5OTgxOTIx/cow-face-with-eagle-arms-forhips.jpg"
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "spacing": "sm",
+          "contents": [
+            {
+              "type": "text",
+              "text": "Yoga",
+              "wrap": true,
+              "weight": "bold",
+              "size": "xl"
+            },
+            {
+              "type": "separator",
+              "margin": "md"
+            },
+            {
+              "type": "text",
+              "margin": "xl",
+              "text": "Yoga sebenarnya merupakan olahraga tubuh dan pikiran. Manfaat yoga tidak hanya membantu tubuh menjadi lebih segar dan bugar, tetapi juga dapat membantu mengendalikan stres dan mengurangi rasa mudah gelisah. Yoga memiliki beragam jenis dan gerakan",
+              "wrap": true,
+              "size": "sm"
+            }
+          ]
+        },
+        "footer": {
+          "type": "box",
+          "layout": "vertical",
+          "spacing": "sm",
+          "contents": [
+            {
+              "type": "button",
+              "style": "primary",
+              "action": {
+                "type": "uri",
+                "label": "Lihat detail",
+                "uri": "https://www.alodokter.com/maksimalkan-manfaat-yoga-untuk-kesehatan-jiwa-dan-raga.html"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "bubble",
+        "hero": {
+          "type": "image",
+          "size": "full",
+          "aspectRatio": "20:13",
+          "aspectMode": "cover",
+          "url": "https://cdns.klimg.com/vemale.com/headline/650x325/2017/11/4-manfaat-mengagumkan-rajin-bersepeda-buat-kesehatan-tubuh.jpg"
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "spacing": "sm",
+          "contents": [
+            {
+              "type": "text",
+              "text": "Bersepeda",
+              "wrap": true,
+              "weight": "bold",
+              "size": "xl"
+            },
+            {
+              "type": "separator",
+              "margin": "md"
+            },
+            {
+              "type": "text",
+              "margin": "xl",
+              "text": "Menikmati pemandangan alam dengan menggunakan sepeda adalah hal yang sangat menyenangkan. Selain kesenangan, manfaat bersepeda juga sangat banyak bagi kesehatan Anda.",
+              "wrap": true,
+              "size": "sm"
+            }
+          ]
+        },
+        "footer": {
+          "type": "box",
+          "layout": "vertical",
+          "spacing": "sm",
+          "contents": [
+            {
+              "type": "button",
+              "style": "primary",
+              "action": {
+                "type": "uri",
+                "label": "Lihat detail",
+                "uri": "https://www.alodokter.com/maksimalkan-manfaat-yoga-untuk-kesehatan-jiwa-dan-raga.html"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "bubble",
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "spacing": "sm",
+          "contents": [
+            {
+              "type": "button",
+              "flex": 1,
+              "gravity": "center",
+              "action": {
+                "type": "uri",
+                "label": "Lihat lebih banyak",
+                "uri": "https://www.alodokter.com/"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
