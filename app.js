@@ -38,7 +38,7 @@ let handleEvent = (event) => {
     return Promise.resolve(null);
   }
 
-  const msg = command_handler.handle_command(event.message.text);
+  const message = command_handler.handle_command(event.message.text);
 
   // use reply API
   if(message) {
