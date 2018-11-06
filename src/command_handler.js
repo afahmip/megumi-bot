@@ -28,15 +28,18 @@ const input_riwayatok = {
 const command_list = {
     'Tampilin data kesehatanku dong': data_health,
     'Minta rekomendasi aktivitas dong': data_aktivitas,
+    'Tampilkan rekomendasi aktivitas': data_aktivitas,
     'Mau bikin appointment sama dokter nih': data_daftardok,
-    'Pilih dr. Winnie Fiona, Sp.A': data_dokter,
-    'Buat appointment': data_appoint,
+    'Buat appointment': data_daftardok,
+    'Tampilkan dr. Winnie Fiona, Sp.A': data_dokter,
+    'Pilih dr. Winnie Fiona, Sp.A': data_appoint,
     'Tampilkan gejala demam': data_penyakit,
     'Kebiasaan hidupku selama ini gimana ya, megumi?': data_riwayat,
     'Makasih ya megumi :)': data_thank,
     'Megumi, aku habis sakit nih': input_riwayat,
     'Tambah riwayat penyakit': input_riwayat,
-    'Tampilin riwayat penyakitku dong': data_daftarpenyakit,
+    'Tampilin riwayat kesehatanku dong': data_daftarpenyakit,
+    'Tampilkan riwayat kesehatan': data_daftarpenyakit,
     'Aku kemarin habis patah tulang lagi nih': input_riwayatdetil,
     'Abis kecelakaan, nabrak mobil gitu, kena kepala': input_riwayatok
 }

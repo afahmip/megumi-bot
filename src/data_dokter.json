@@ -44,7 +44,7 @@
               "contents": [
                 {
                   "type": "text",
-                  "text": "Tempat & \ntanggal lahir",
+                  "text": "No. Telp",
                   "size": "sm",
                   "wrap": true,
                   "color": "#555555",
@@ -52,7 +52,7 @@
                 },
                 {
                   "type": "text",
-                  "text": "Jakarta, 19 \nFebruari 1985",
+                  "text": "082738713832",
                   "size": "sm",
                   "wrap": true,
                   "color": "#111111",
@@ -67,7 +67,7 @@
               "contents": [
                 {
                   "type": "text",
-                  "text": "Alamat",
+                  "text": "Rumah sakit",
                   "size": "sm",
                   "wrap": true,
                   "color": "#555555",
@@ -75,7 +75,7 @@
                 },
                 {
                   "type": "text",
-                  "text": "Jl. Cemara 103, \nRT 006/ RW 022",
+                  "text": "RS Borromeus,\nJl Djuanda Bandung",
                   "size": "sm",
                   "wrap": true,
                   "color": "#111111",
@@ -144,7 +144,7 @@
               "action": {
                 "type": "message",
                 "label": "Buat Appointment",
-                "text": "Buat appointment"
+                "text": "Pilih dr. Winnie Fiona, Sp.A"
               }
             }
           ]
