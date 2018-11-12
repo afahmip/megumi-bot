@@ -1,0 +1,35 @@
+{
+  "type": "flex",
+  "altText": "halo shandy",
+  "contents": {
+    "type": "bubble",
+    "hero": {
+      "type": "image",
+      "url": "https://vignette.wikia.nocookie.net/gakkou-gurashi/images/7/7a/Megumi-icon.png/revision/latest?cb=20150811004233",
+      "size": "full",
+      "aspectRatio": "20:13",
+      "aspectMode": "cover"
+    },
+    "body": {
+      "type": "box",
+      "layout": "vertical",
+      "contents": [
+        {
+          "type": "text",
+          "text": "Hai Shandy!",
+          "align": "center",
+          "weight": "bold",
+          "size": "xl"
+        },
+        {
+          "type": "text",
+          "margin": "lg",
+          "text": "Ada yang bisa aku bantu?",
+          "wrap": true,
+          "align": "center",
+          "size": "sm"
+        }
+      ]
+    }
+  }
+}
