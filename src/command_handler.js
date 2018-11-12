@@ -9,7 +9,7 @@ const data_health = require('./data_health.json'),
       data_thank = require('./data_thank.json'),
       data_riwayat = require('./data_riwayat.json'),
       data_daftarpenyakit = require('./data_daftarpenyakit.json'),
-      data_kesehatan_bagus = require('./data/data_kesehatan_bagus.json');
+      data_kesehatan_bagus = require('./data_kesehatan_bagus.json');
 
 const input_riwayat = {
     type: 'text',
