@@ -8,7 +8,8 @@ const data_health = require('./data_health.json'),
       data_penyakit = require('./data_penyakit.json'),
       data_thank = require('./data_thank.json'),
       data_riwayat = require('./data_riwayat.json'),
-      data_daftarpenyakit = require('./data_daftarpenyakit.json');
+      data_daftarpenyakit = require('./data_daftarpenyakit.json'),
+      data_kesehatan_bagus = require('./data/data_kesehatan_bagus.json');
 
 const input_riwayat = {
     type: 'text',
@@ -26,6 +27,7 @@ const input_riwayatok = {
 }
 
 const command_list = {
+    'Kondisiku sekarang gimana ya?': data_kesehatan_bagus,
     'Tampilin data kesehatanku dong': data_health,
     'Minta rekomendasi aktivitas dong': data_aktivitas,
     'Tampilkan rekomendasi aktivitas': data_aktivitas,

@@ -1,0 +1,72 @@
+{
+  "type": "flex",
+  "altText": "Kondisiku",
+  "contents": {
+    "type": "bubble",
+    "hero": {
+      "type": "image",
+      "url": "https://pa1.narvii.com/6655/ae8d7d93b361f33597f02adf2ab51a06045f4106_00.gif",
+      "size": "full",
+      "aspectRatio": "20:13",
+      "aspectMode": "cover"
+    },
+    "body": {
+      "type": "box",
+      "layout": "vertical",
+      "contents": [
+        {
+          "type": "text",
+          "text": "Kondisi kamu baik :)",
+          "align": "center",
+          "weight": "bold",
+          "color": "#28b208",
+          "size": "xl"
+        },
+        {
+          "type": "text",
+          "margin": "xl",
+          "text": "Kamu tidak memiliki kondisi yang dinilai mengkhawatirkan. Pertahankan terus kesehatanmu ya :)",
+          "wrap": true,
+          "align": "center",
+          "size": "sm"
+        },
+        {
+          "type": "box",
+          "layout": "vertical",
+          "margin": "xxl",
+          "spacing": "sm",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "vertical",
+              "margin": "xl",
+              "contents": [
+                {
+                  "type": "button",
+                  "color": "#2ebbea",
+                  "style": "primary",
+                  "action": {
+                    "type": "message",
+                    "label": "Kondisi vitalku",
+                    "text": "Tampilin data kesehatanku dong"
+                  }
+                },
+                {
+                  "margin": "lg",
+                  "type": "button",
+                  "color": "#2ebbea",
+                  "style": "primary",
+                  "action": {
+                    "type": "message",
+                    "label": "Pertahankan kondisiku!",
+                    "text": "Minta rekomendasi aktivitas dong"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
