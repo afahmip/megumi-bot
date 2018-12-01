@@ -23,7 +23,7 @@
         {
           "type": "text",
           "wrap": true,
-          "text": "Silakan pilih salah satu dokter, lalu buat appointment",
+          "text": "Preferensi dokter:\nTerdekat, terpercaya, pengalaman minimal: 5 thn",
           "color": "#777777",
           "size": "sm",
           "margin": "md"
@@ -44,19 +44,34 @@
               "margin": "xl",
               "contents": [
                 {
+                  "type": "image",
+                  "url": "https://icons.iconarchive.com/icons/graphicloads/100-flat-2/128/check-1-icon.png",
+                  "size": "full",
+                  "align": "center",
+                  "gravity": "center",
+                  "flex": 2
+                },
+                {
+                  "type": "filler"
+                },
+                {
                   "type": "text",
-                  "text": "dr. Winnie Fiona, Sp.A",
+                  "text": "dr. Winnie Fiona",
                   "size": "md",
-                  "wrap": true,
                   "weight": "bold",
                   "color": "#111111",
-                  "flex": 3
+                  "gravity": "center",
+                  "wrap": true,
+                  "flex": 16
+                },
+                {
+                  "type": "filler"
                 },
                 {
                   "type": "button",
                   "style": "primary",
                   "color": "#2ebbea",
-                  "flex": 2,
+                  "flex": 7,
                   "action": {
                     "type": "message",
                     "label": "Pilih",
@@ -71,23 +86,38 @@
               "margin": "xl",
               "contents": [
                 {
+                  "type": "image",
+                  "url": "https://icons.iconarchive.com/icons/graphicloads/100-flat-2/128/check-1-icon.png",
+                  "size": "full",
+                  "align": "center",
+                  "gravity": "center",
+                  "flex": 2
+                },
+                {
+                  "type": "filler"
+                },
+                {
                   "type": "text",
-                  "text": "drg. Jonathan Del Piero",
+                  "text": "dr. Jonathan Pierro",
                   "size": "md",
-                  "wrap": true,
                   "weight": "bold",
                   "color": "#111111",
-                  "flex": 3
+                  "gravity": "center",
+                  "wrap": true,
+                  "flex": 16
+                },
+                {
+                  "type": "filler"
                 },
                 {
                   "type": "button",
                   "style": "primary",
                   "color": "#2ebbea",
-                  "flex": 2,
+                  "flex": 7,
                   "action": {
                     "type": "message",
                     "label": "Pilih",
-                    "text": "Tampilkan dr. Winnie Fiona, Sp.A"
+                    "text": "Tampilkan dr. Jonathan Pierro"
                   }
                 }
               ]
@@ -98,19 +128,32 @@
               "margin": "xl",
               "contents": [
                 {
+                  "type": "filler"
+                },
+                {
+                  "type": "filler"
+                },
+                {
+                  "type": "filler"
+                },
+                {
                   "type": "text",
-                  "text": "dr. Muhammad Ali, Sp.A",
+                  "text": "dr. Muhammad Ali",
                   "size": "md",
-                  "wrap": true,
                   "weight": "bold",
                   "color": "#111111",
-                  "flex": 3
+                  "gravity": "center",
+                  "wrap": true,
+                  "flex": 16
+                },
+                {
+                  "type": "filler"
                 },
                 {
                   "type": "button",
                   "style": "primary",
                   "color": "#2ebbea",
-                  "flex": 2,
+                  "flex": 7,
                   "action": {
                     "type": "message",
                     "label": "Pilih",

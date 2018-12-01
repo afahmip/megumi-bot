@@ -1,0 +1,155 @@
+{
+  "type": "flex",
+  "altText": "reschedule",
+  "contents": {
+    "type": "bubble",
+    "hero": {
+      "type": "image",
+      "url": "https://media.beritagar.id/2018-08/66d491d01748615d6b5473bde59dbdecc669d7b1.jpg",
+      "size": "full",
+      "aspectRatio": "20:13",
+      "aspectMode": "cover"
+    },
+    "body": {
+      "type": "box",
+      "layout": "vertical",
+      "spacing": "md",
+      "contents": [
+        {
+          "type": "text",
+          "text": "Reschedule",
+          "wrap": true,
+          "weight": "bold",
+          "gravity": "center",
+          "size": "xl"
+        },
+        {
+          "type": "box",
+          "layout": "vertical",
+          "margin": "lg",
+          "spacing": "sm",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "baseline",
+              "spacing": "sm",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "Dokter",
+                  "color": "#aaaaaa",
+                  "size": "sm",
+                  "flex": 4
+                },
+                {
+                  "type": "filler"
+                },
+                {
+                  "type": "text",
+                  "text": "dr. Winnie Fiona, Sp.A",
+                  "wrap": true,
+                  "size": "sm",
+                  "color": "#666666",
+                  "flex": 7
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "spacing": "sm",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "Tanggal",
+                  "color": "#aaaaaa",
+                  "size": "sm",
+                  "flex": 4
+                },
+                {
+                  "type": "filler"
+                },
+                {
+                  "type": "text",
+                  "text": "3 Desember 2018",
+                  "wrap": true,
+                  "size": "sm",
+                  "color": "#666666",
+                  "flex": 7
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "spacing": "sm",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "Jam",
+                  "color": "#aaaaaa",
+                  "size": "sm",
+                  "flex": 4
+                },
+                {
+                  "type": "filler"
+                },
+                {
+                  "type": "text",
+                  "text": "15:00",
+                  "wrap": true,
+                  "size": "sm",
+                  "color": "#666666",
+                  "flex": 7
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "spacing": "sm",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "Lokasi",
+                  "color": "#aaaaaa",
+                  "size": "sm",
+                  "flex": 4
+                },
+                {
+                  "type": "filler"
+                },
+                {
+                  "type": "text",
+                  "text": "RS Borromeus,\nJl Djuanda Bandung",
+                  "wrap": true,
+                  "color": "#666666",
+                  "size": "sm",
+                  "flex": 7
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "footer": {
+      "type": "box",
+      "layout": "vertical",
+      "spacing": "sm",
+      "contents": [
+        {
+          "type": "button",
+          "flex": 2,
+          "style": "primary",
+          "color": "#77b300",
+          "action": {
+            "type": "message",
+            "label": "Reschedule",
+            "text": "Reschedule 3 December 2018 15:00"
+          }
+        }
+      ]
+    }
+  }
+}

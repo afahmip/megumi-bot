@@ -143,8 +143,8 @@
               "color": "#2ebbea",
               "action": {
                 "type": "message",
-                "label": "Buat Appointment",
-                "text": "Pilih dr. Winnie Fiona, Sp.A"
+                "label": "Lihat jadwal",
+                "text": "Schedule dr. Winnie Fiona, Sp.A"
               }
             }
           ]
