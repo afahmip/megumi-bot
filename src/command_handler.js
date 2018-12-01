@@ -3,6 +3,7 @@
 const data_health = require('./data_health.json'),
     data_aktivitas = require('./data_aktivitas.json'),
 
+    // ===========================================================
 
     data_daftardok = require('./cluster_appointment/data_daftardok.json'),
     data_dokter_01 = require('./cluster_appointment/data_dokter_01.json'),
@@ -15,9 +16,17 @@ const data_health = require('./data_health.json'),
     data_request_cancel = require('./cluster_appointment/data_request_cancel.json'),
     data_result_cancel_appointment = require('./cluster_appointment/data_result_cancel_appointment.json'),
 
+    // ===========================================================
+
+    data_riwayat = require('./cluster_riwayat/data_riwayat.json'),
+    data_riwayat_11_28 = require('./cluster_riwayat/catatan_harian/detail_11_28.json'),
+    data_riwayat_11_29 = require('./cluster_riwayat/catatan_harian/detail_11_29.json'),
+    data_riwayat_11_30 = require('./cluster_riwayat/catatan_harian/detail_11_30.json'),
+
+    // ===========================================================
     data_penyakit = require('./data_penyakit.json'),
     data_thank = require('./data_thank.json'),
-    data_riwayat = require('./data_riwayat.json'),
+
     data_daftarpenyakit = require('./data_daftarpenyakit.json'),
     data_kesehatan_bagus = require('./data_kesehatan_bagus.json'),
     data_hello = require('./data_hello.json');
@@ -52,7 +61,7 @@ const command_list = {
     'tampilkan dr. winnie fiona, sp.a': data_dokter_01,
     'tampilkan dr. jonathan pierro': data_dokter_02,
 
-    'schedule dr. winnie Fiona, sp.a': data_show_schedule,
+    'schedule dr. winnie fiona, sp.a': data_show_schedule,
     'schedule dr. jonathan pierro': data_show_schedule,
 
     'appointment 3 desember 2018 12:00': data_result_appointment,
@@ -66,9 +75,14 @@ const command_list = {
     'cancel appointment': data_request_cancel,
     'cancel 3 desember 2018 15:00': data_result_cancel_appointment,
 
+    // =============  Cluster riwayat  =======================
+    'kebiasaan hidupku selama ini gimana ya, megumi?': data_riwayat,
+    'tampilkan riwayat 28/11/2018': data_riwayat_11_28,
+    'tampilkan riwayat 29/11/2018': data_riwayat_11_29,
+    'tampilkan riwayat 30/11/2018': data_riwayat_11_30,
+
     // ================================================================
     'tampilkan gejala demam': data_penyakit,
-    'kebiasaan hidupku selama ini gimana ya, megumi?': data_riwayat,
     'makasih ya megumi :)': data_thank,
     'megumi, aku habis sakit nih': input_riwayat,
     'tambah riwayat penyakit': input_riwayat,

@@ -1,0 +1,273 @@
+{
+  "type": "flex",
+  "altText": "Riwayat aktivitas",
+  "contents": {
+    "type": "bubble",
+    "styles": {
+      "footer": {
+        "separator": true
+      }
+    },
+    "body": {
+      "type": "box",
+      "layout": "vertical",
+      "contents": [
+        {
+          "type": "text",
+          "text": "Riwayat Kebiasaan",
+          "weight": "bold",
+          "color": "#2ebbea",
+          "size": "xl",
+          "margin": "md"
+        },
+        {
+          "type": "text",
+          "wrap": true,
+          "text": "Ini riwayat kebiasaan hidup kamu selama beberapa hari, perhatiin tuh :( Jangan sampe turun lho nanti aku sedih...",
+          "color": "#777777",
+          "size": "sm",
+          "margin": "md"
+        },
+        {
+          "type": "separator",
+          "margin": "xxl"
+        },
+        {
+          "type": "box",
+          "layout": "vertical",
+          "margin": "xxl",
+          "spacing": "sm",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "margin": "xl",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "28/11/2018",
+                  "size": "md",
+                  "wrap": true,
+                  "color": "#111111",
+                  "flex": 5,
+                  "gravity": "center",
+                  "action": {
+                    "type": "message",
+                    "label": "Tampilkan riwayat 28/11/2018",
+                    "text": "Tampilkan riwayat 28/11/2018"
+                  }
+                },
+                {
+                  "type": "filler"
+                },
+                {
+                  "type": "text",
+                  "text": "baik",
+                  "weight": "bold",
+                  "size": "md",
+                  "color": "#00e600",
+                  "flex": 5,
+                  "gravity": "center",
+                  "align": "center"
+                },
+                {
+                  "type": "filler"
+                },
+                {
+                  "type": "image",
+                  "url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Green_Arrow_Up_Darker.svg",
+                  "size": "full",
+                  "gravity": "center"
+                },
+                {
+                  "type": "filler"
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "margin": "xl",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "29/11/2018",
+                  "size": "md",
+                  "wrap": true,
+                  "color": "#111111",
+                  "flex": 5,
+                  "gravity": "center",
+                  "action": {
+                    "type": "message",
+                    "label": "Tampilkan riwayat 29/11/2018",
+                    "text": "Tampilkan riwayat 29/11/2018"
+                  }
+                },
+                {
+                  "type": "filler"
+                },
+                {
+                  "type": "text",
+                  "text": "baik",
+                  "weight": "bold",
+                  "size": "md",
+                  "color": "#00e600",
+                  "flex": 5,
+                  "gravity": "center",
+                  "align": "center"
+                },
+                {
+                  "type": "filler"
+                },
+                {
+                  "type": "filler"
+                },
+                {
+                  "type": "filler"
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "margin": "xl",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "30/11/2018",
+                  "size": "md",
+                  "wrap": true,
+                  "color": "#111111",
+                  "flex": 5,
+                  "gravity": "center",
+                  "action": {
+                    "type": "message",
+                    "label": "Tampilkan riwayat 30/11/2018",
+                    "text": "Tampilkan riwayat 30/11/2018"
+                  }
+                },
+                {
+                  "type": "filler"
+                },
+                {
+                  "type": "text",
+                  "text": "kurang baik",
+                  "weight": "bold",
+                  "size": "md",
+                  "color": "#ff8080",
+                  "flex": 5,
+                  "gravity": "center",
+                  "align": "center"
+                },
+                {
+                  "type": "filler"
+                },
+                {
+                  "type": "image",
+                  "url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Red_Arrow_Down.svg",
+                  "size": "full",
+                  "gravity": "center"
+                },
+                {
+                  "type": "filler"
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "margin": "xl",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "01/12/2018",
+                  "size": "md",
+                  "wrap": true,
+                  "color": "#111111",
+                  "flex": 5,
+                  "gravity": "center",
+                  "action": {
+                    "type": "message",
+                    "label": "Tampilkan riwayat 01/12/2018",
+                    "text": "Tampilkan riwayat 01/12/2018"
+                  }
+                },
+                {
+                  "type": "filler"
+                },
+                {
+                  "type": "text",
+                  "text": "baik",
+                  "weight": "bold",
+                  "size": "md",
+                  "color": "#00e600",
+                  "flex": 5,
+                  "gravity": "center",
+                  "align": "center"
+                },
+                {
+                  "type": "filler"
+                },
+                {
+                  "type": "image",
+                  "url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Green_Arrow_Up_Darker.svg",
+                  "size": "full",
+                  "gravity": "center"
+                },
+                {
+                  "type": "filler"
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "margin": "xl",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "02/12/2018",
+                  "size": "md",
+                  "wrap": true,
+                  "color": "#111111",
+                  "flex": 5,
+                  "gravity": "center",
+                  "action": {
+                    "type": "message",
+                    "label": "Tampilkan riwayat 02/12/2018",
+                    "text": "Tampilkan riwayat 02/12/2018"
+                  }
+                },
+                {
+                  "type": "filler"
+                },
+                {
+                  "type": "text",
+                  "text": "kurang baik",
+                  "weight": "bold",
+                  "size": "md",
+                  "color": "#ff8080",
+                  "flex": 5,
+                  "gravity": "center",
+                  "align": "center"
+                },
+                {
+                  "type": "filler"
+                },
+                {
+                  "type": "image",
+                  "url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Red_Arrow_Down.svg",
+                  "size": "full",
+                  "gravity": "center"
+                },
+                {
+                  "type": "filler"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

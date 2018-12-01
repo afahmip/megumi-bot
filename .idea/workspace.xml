@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7001afec-3dff-4633-a4c0-9278b2e506dc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/cluster_appointment/data_daftardok.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/cluster_appointment/data_daftardok.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cluster_appointment/data_dokter_01.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/cluster_appointment/data_dokter_01.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cluster_appointment/data_dokter_02.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/cluster_appointment/data_dokter_02.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cluster_appointment/data_request_cancel.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/cluster_appointment/data_request_cancel.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cluster_appointment/data_reschedule.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/cluster_appointment/data_reschedule.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cluster_appointment/data_show_appointment.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/cluster_appointment/data_show_appointment.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cluster_appointment/data_show_schedule.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/cluster_appointment/data_show_schedule.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cluster_riwayat/catatan_harian/detail_11_28.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cluster_riwayat/catatan_harian/detail_11_29.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cluster_riwayat/catatan_harian/detail_11_30.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cluster_riwayat/data_riwayat.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/command_handler.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/command_handler.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_riwayat.json" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,25 +27,27 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="js" value="3" />
-          <entry key="json" value="46" />
+          <entry key="json" value="58" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JSON" value="46" />
+          <entry key="JSON" value="55" />
           <entry key="JavaScript" value="3" />
+          <entry key="PLAIN_TEXT" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="935" />
-          <entry key="json" value="368" />
+          <entry key="js" value="1125" />
+          <entry key="json" value="546" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JSON" value="368" />
-          <entry key="JavaScript" value="935" />
+          <entry key="JSON" value="448" />
+          <entry key="JavaScript" value="1125" />
+          <entry key="PLAIN_TEXT" value="98" />
         </counts>
       </usages-collector>
     </session>
@@ -56,17 +57,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/command_handler.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="82" column="2" lean-forward="true" selection-start-line="82" selection-start-column="2" selection-end-line="82" selection-end-column="2" />
+            <state relative-caret-position="170">
+              <caret line="70" column="52" selection-start-line="70" selection-start-column="52" selection-end-line="70" selection-end-column="52" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cluster_appointment/data_reschedule.json">
+        <entry file="file://$PROJECT_DIR$/src/cluster_riwayat/data_riwayat.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+            <state relative-caret-position="212">
+              <caret line="55" column="58" selection-start-line="55" selection-start-column="30" selection-end-line="55" selection-end-column="58" />
             </state>
           </provider>
         </entry>
@@ -77,9 +78,11 @@
     <findStrings>
       <find>Dece</find>
       <find>Desember</find>
+      <find>Catatan kegiatan</find>
     </findStrings>
     <replaceStrings>
       <replace>desember</replace>
+      <replace>Tampilkan riwayat</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -104,6 +107,11 @@
         <option value="$PROJECT_DIR$/src/cluster_appointment/data_reschedule.json" />
         <option value="$PROJECT_DIR$/src/cluster_appointment/data_show_appointment.json" />
         <option value="$PROJECT_DIR$/src/cluster_appointment/data_show_schedule.json" />
+        <option value="$PROJECT_DIR$/src/data_riwayat.json" />
+        <option value="$PROJECT_DIR$/src/catatan_harian/detail_11_29.json" />
+        <option value="$PROJECT_DIR$/src/catatan_harian/detail_11_28.json" />
+        <option value="$PROJECT_DIR$/src/catatan_harian/detail_11_30.json" />
+        <option value="$PROJECT_DIR$/src/cluster_riwayat/data_riwayat.json" />
         <option value="$PROJECT_DIR$/src/command_handler.js" />
       </list>
     </option>
@@ -184,7 +192,7 @@
               <item name="IMK megumi" type="b2602c69:ProjectViewProjectNode" />
               <item name="IMK megumi" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="cluster_appointment" type="462c0819:PsiDirectoryNode" />
+              <item name="cluster_riwayat" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -202,9 +210,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Code\Linebot\IMK megumi\src\cluster_riwayat" />
       <recent name="C:\Code\Linebot\IMK megumi\src\cluster_appointment" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Code\Linebot\IMK megumi\src\catatan_harian" />
       <recent name="C:\Code\Linebot\IMK megumi\src\cluster_appointment" />
       <recent name="C:\Code\Linebot\IMK megumi\src" />
     </key>
@@ -231,12 +241,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1543632235355</updated>
-      <workItem from="1543632238013" duration="9444000" />
+      <workItem from="1543632238013" duration="12851000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9444000" />
+    <option name="totallyTimeSpent" value="12851000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
@@ -275,13 +285,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data_riwayat.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1176">
-          <caret line="56" column="31" selection-start-line="56" selection-start-column="31" selection-end-line="56" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -341,13 +344,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/data_aktivitas.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="181" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/data_daftarpenyakit.json">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -355,16 +351,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/data_health.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/data_hello.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/data_penyakit.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data_kesehatan_bagus.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cluster_appointment/data_reschedule.json">
@@ -381,10 +371,65 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/data_kesehatan_bagus.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
+          <folding>
+            <element signature="n#!!block;n#contents#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cluster_riwayat/catatan_harian/detail_11_29.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cluster_riwayat/catatan_harian/detail_11_28.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="64" column="33" selection-start-line="64" selection-start-column="33" selection-end-line="64" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cluster_riwayat/catatan_harian/detail_11_30.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="160" column="37" lean-forward="true" selection-start-line="160" selection-start-column="37" selection-end-line="160" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data_health.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="14" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="14" />
+          <folding>
+            <element signature="n#!!block;n#contents#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data_aktivitas.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cluster_riwayat/data_riwayat.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="55" column="58" selection-start-line="55" selection-start-column="30" selection-end-line="55" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/command_handler.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="82" column="2" lean-forward="true" selection-start-line="82" selection-start-column="2" selection-end-line="82" selection-end-column="2" />
+        <state relative-caret-position="170">
+          <caret line="70" column="52" selection-start-line="70" selection-start-column="52" selection-end-line="70" selection-end-column="52" />
         </state>
       </provider>
     </entry>
