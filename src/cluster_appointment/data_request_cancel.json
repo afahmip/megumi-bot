@@ -1,6 +1,6 @@
 {
   "type": "flex",
-  "altText": "request cancel",
+  "altText": "Cancel appointment ?",
   "contents": {
     "type": "bubble",
     "hero": {
@@ -146,7 +146,7 @@
           "action": {
             "type": "message",
             "label": "Cancel",
-            "text": "Cancel 3 December 2018 15:00"
+            "text": "Cancel 3 Desember 2018 15:00"
           }
         }
       ]

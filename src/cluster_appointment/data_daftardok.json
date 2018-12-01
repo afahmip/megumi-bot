@@ -1,6 +1,6 @@
 {
   "type": "flex",
-  "altText": "Pilih Dokter",
+  "altText": "Daftar dokter",
   "contents": {
     "type": "bubble",
     "styles": {

@@ -1,6 +1,6 @@
 {
   "type": "flex",
-  "altText": "dokter",
+  "altText": "Daftar appointment",
   "contents": {
     "type": "bubble",
     "hero": {

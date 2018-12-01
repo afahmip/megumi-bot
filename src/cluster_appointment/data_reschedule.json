@@ -1,6 +1,6 @@
 {
   "type": "flex",
-  "altText": "reschedule",
+  "altText": "Reschedule appointment ?",
   "contents": {
     "type": "bubble",
     "hero": {
@@ -146,7 +146,7 @@
           "action": {
             "type": "message",
             "label": "Reschedule",
-            "text": "Reschedule 3 December 2018 15:00"
+            "text": "Reschedule 3 Desember 2018 15:00"
           }
         }
       ]
