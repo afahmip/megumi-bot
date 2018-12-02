@@ -46,6 +46,16 @@ const input_riwayatok = {
     text: 'Oke udah kesimpen ya...semoga kamu tetep sehat terus ke depannya :('
 };
 
+const input_checkkondisi = {
+    type: 'text',
+    text: 'Megumi minta data vitalmu dong:)',
+};
+
+const input_datavital = {
+    type: 'text',
+    text: 'Kamu punya gejala apa aja?',
+}
+
 const command_list = {
     'hai megumi!': data_hello,
     'kondisiku sekarang gimana ya?': data_kesehatan_bagus,
@@ -89,8 +99,10 @@ const command_list = {
     'tampilin riwayat kesehatanku dong': data_daftarpenyakit,
     'tampilkan riwayat kesehatan': data_daftarpenyakit,
     'aku kemarin habis patah tulang lagi nih': input_riwayatdetil,
-    'abis kecelakaan, nabrak mobil gitu, kena kepala': input_riwayatok
-};
+    'abis kecelakaan, nabrak mobil gitu, kena kepala': input_riwayatok,
+    'Megumi, aku mau cek kondisiku dong': input_checkkondisi,
+    'Kadar asam urat: 5mg/dL': input_datavital,
+}; 
 
 let handle_command = (input) => {
     return command_list[input.toLowerCase()];
