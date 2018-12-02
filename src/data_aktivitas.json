@@ -26,7 +26,6 @@
                 {
                   "type": "text",
                   "text": "Lari pagi",
-                  "wrap": true,
                   "weight": "bold",
                   "size": "xl"
                 },
@@ -36,7 +35,7 @@
                 {
                   "type": "image",
                   "url": "https://cdn4.iconfinder.com/data/icons/pictograms-2/512/512-14-512.png",
-                  "size": "xs",
+                  "size": "xxs",
                   "gravity": "center"
                 }
               ]
