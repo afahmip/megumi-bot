@@ -36,7 +36,7 @@
                 {
                   "type": "image",
                   "url": "https://cdn4.iconfinder.com/data/icons/pictograms-2/512/512-14-512.png",
-                  "size": "full",
+                  "size": "xs",
                   "gravity": "center"
                 }
               ]
