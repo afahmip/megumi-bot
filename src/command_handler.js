@@ -101,7 +101,7 @@ const command_list = {
     'aku kemarin habis patah tulang lagi nih': input_riwayatdetil,
     'abis kecelakaan, nabrak mobil gitu, kena kepala': input_riwayatok,
     'Megumi, aku mau cek kondisiku dong': input_checkkondisi,
-    'Kadar asam urat: 5mg/dL': input_datavital,
+    'Udah gitu aja, Megumi:)': input_datavital,
 }; 
 
 let handle_command = (input) => {
