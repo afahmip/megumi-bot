@@ -54,7 +54,7 @@ const input_checkkondisi = {
 const input_datavital = {
     type: 'text',
     text: 'Kamu punya gejala apa aja?',
-}
+};
 
 const command_list = {
     'hai megumi!': data_hello,
