@@ -100,9 +100,9 @@ const command_list = {
     'tampilkan riwayat kesehatan': data_daftarpenyakit,
     'aku kemarin habis patah tulang lagi nih': input_riwayatdetil,
     'abis kecelakaan, nabrak mobil gitu, kena kepala': input_riwayatok,
-    'Megumi, aku mau cek kondisiku dong': input_checkkondisi,
-    'Udah gitu aja, Megumi:)': input_datavital,
-}; 
+    'megumi, aku mau cek kondisiku dong': input_checkkondisi,
+    'udah gitu aja, megumi :)': input_datavital,
+};  
 
 let handle_command = (input) => {
     return command_list[input.toLowerCase()];
