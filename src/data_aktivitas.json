@@ -21,7 +21,7 @@
             {
               "type": "box",
               "layout": "horizontal",
-              "spacing": "sm",
+              "margin": "xl",
               "contents": [
                 {
                   "type": "text",
@@ -34,7 +34,7 @@
                   "type": "filler"
                 },
                 {
-                  "type": "icon",
+                  "type": "image",
                   "url": "https://cdn4.iconfinder.com/data/icons/pictograms-2/512/512-14-512.png",
                   "size": "full",
                   "gravity": "center"
