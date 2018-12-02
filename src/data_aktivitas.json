@@ -19,11 +19,27 @@
           "spacing": "sm",
           "contents": [
             {
-              "type": "text",
-              "text": "Lari pagi",
-              "wrap": true,
-              "weight": "bold",
-              "size": "xl"
+              "type": "box",
+              "layout": "horizontal",
+              "spacing": "sm",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "Lari pagi",
+                  "wrap": true,
+                  "weight": "bold",
+                  "size": "xl"
+                },
+                {
+                  "type": "filler"
+                },
+                {
+                  "type": "icon",
+                  "url": "https://cdn4.iconfinder.com/data/icons/pictograms-2/512/512-14-512.png",
+                  "size": "full",
+                  "gravity": "center"
+                }
+              ]
             },
             {
               "type": "separator",
