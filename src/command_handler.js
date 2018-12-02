@@ -56,6 +56,11 @@ const input_datavital = {
     text: 'Kamu punya gejala apa aja?',
 };
 
+const help = {
+    type: 'text',
+    text: 'Halo! Aku bisa bantu kamu banyak hal nih!\n1. Rekomendasi aktivitas\n2. Bikin appointment sama dokter\n3. Nyimpen data-data kesehatan kamu\n4. Kamu bisa nanya gejala penyakit juga\n5. Aku juga bisa analisis kegiatan kamu sehari-hari loh\n',
+};
+
 const command_list = {
     'hai megumi!': data_hello,
     'kondisiku sekarang gimana ya?': data_kesehatan_bagus,
@@ -102,10 +107,16 @@ const command_list = {
     'abis kecelakaan, nabrak mobil gitu, kena kepala': input_riwayatok,
     'megumi, aku mau cek kondisiku dong': input_checkkondisi,
     'udah gitu aja, megumi :)': input_datavital,
+    'megumi, bantuin aku dong': help
 };  
 
 let handle_command = (input) => {
-    return command_list[input.toLowerCase()];
+    let result = command_list[input.toLowerCase()];
+    if(result) return result;
+    return {
+        type: 'text',
+        text: 'Maaf aku gak ngerti kata-kata kamu .__.',
+    };
 };
 
 module.exports = {
